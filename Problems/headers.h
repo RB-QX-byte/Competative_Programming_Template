@@ -9,6 +9,28 @@
 #ifndef HEADERS_H
 #define HEADERS_H
 
+// ============ COMPILER OPTIMIZATIONS ============
+// These pragmas enable aggressive optimizations for faster execution
+// They work with GCC and Clang (online judges use GCC)
+
+#pragma GCC optimize("O2") // Enable O2 optimization level
+#pragma GCC optimize("O3") // Enable O3 optimization level (more aggressive)
+#pragma GCC optimize("unroll-loops") // Unroll loops for speed
+#pragma GCC optimize(                                                          \
+    "fast-math") // Fast floating-point math (use with caution for precision)
+#pragma GCC optimize("inline") // Aggressive inlining
+
+// Target modern CPU features (available on most online judges)
+#pragma GCC target("avx2")   // Enable AVX2 SIMD instructions
+#pragma GCC target("bmi")    // Bit manipulation instructions
+#pragma GCC target("bmi2")   // More bit manipulation
+#pragma GCC target("popcnt") // Population count instruction
+#pragma GCC target("lzcnt")  // Leading zero count
+
+// Alternative: Use this single line for broader compatibility
+// #pragma GCC
+// target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
+
 // Standard Library Headers (cross-platform compatible)
 #include <algorithm>
 #include <bitset>
