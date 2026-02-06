@@ -9,12 +9,12 @@ int main() {
   FAST_IO;
 
 #ifndef ONLINE_JUDGE
-  freopen("I_and_O\\input.txt", "r", stdin);
-  freopen("I_and_O\\output.txt", "w", stdout);
-  freopen("I_and_O\\error.txt", "w", stderr);
+  freopen("I_and_O/input.txt", "r", stdin);
+  freopen("I_and_O/output.txt", "w", stdout);
+  freopen("I_and_O/error.txt", "w", stderr);
 #endif
 
-  int t = 1;
+  int t;
   cin >> t;
 
   while (t--) {

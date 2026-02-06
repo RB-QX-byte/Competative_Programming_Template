@@ -53,6 +53,10 @@
 #include <unordered_set>
 #include <vector>
 
+// TimeSpace utilities for measuring execution time and memory
+#include "../TimeSpace/Space.h"
+#include "../TimeSpace/Time.h"
+
 using namespace std;
 
 // ============ TYPE DEFINITIONS ============
