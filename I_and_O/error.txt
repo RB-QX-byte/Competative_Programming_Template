@@ -1,6 +1,3 @@
-[SPACE] a: 36 B (3 elements)
-[TIME] Solution: 0.0246 ms
-[SPACE] a: 40 B (4 elements)
-[TIME] Solution: 0.0111 ms
-[SPACE] a: 32 B (2 elements)
-[TIME] Solution: 0.0103 ms
+[TIME] Solution: 0.0242 ms
+[TIME] Solution: 0.0025 ms
+[TIME] Solution: 0.0019 ms
